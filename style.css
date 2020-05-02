@@ -107,12 +107,22 @@ services
     background-color: var(--violet);
 }
 .carousel-caption img {
-    border-radius: 30px;
+    
 }
 /************ 
 partners 
 ************/
-
+.partners {
+    background-image:linear-gradient(rgba(65, 42, 107,.8), rgba(65, 42, 107,.8)), url(img/slide1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.partners .row {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
 
 /************ 
 team
