@@ -127,8 +127,13 @@ partners
 /************ 
 team
 ************/
-
-
+.team .col-md-3 {
+    padding: 20px;
+}
+.team img {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
 
 /************ 
 contact
