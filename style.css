@@ -10,6 +10,30 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
 }
 
+/************ 
+nav
+************/
+.bg-light {
+    background-color: var(--violet) !important;
+}
+.navbar-light .navbar-brand {
+    color: var(--gray);
+}
+.navbar-light .navbar-brand:hover {
+    color: var(--yellow);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--gray);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--yellow);
+}
+/************ 
+slider
+************/
 
 /************ 
 about 
