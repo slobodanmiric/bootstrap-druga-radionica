@@ -9,7 +9,20 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
 }
-
+.btn-outline-primary {
+    border-color: var(--yellow) !important;
+    color: var(--yellow) !important;
+}
+.btn-outline-primary:hover {
+    background: var(--yellow) !important;
+    color: var(--violet) !important;
+}
+.underline {
+    width: 20%;
+    background: var(--yellow);
+    height: 9px;
+    margin: 20px auto;
+}
 /************ 
 nav
 ************/
@@ -40,7 +53,12 @@ slider
 /************ 
 about 
 ************/
-
+.about .lead {
+    font-style: italic;
+}
+.about img {
+    border-radius: 40px;
+}
 /************ 
 works
 ************/
