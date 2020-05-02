@@ -167,7 +167,11 @@ contact
 /************ 
 footer
 ************/
-
+footer {
+    background: var(--yellow);
+    color: var(--violet);
+    font-weight: bold;
+}
 
 
 
